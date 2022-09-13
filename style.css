@@ -1,9 +1,19 @@
 h1 {
     display: inline;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 header {
     background-color: white;
+    padding: 10px;
 }
 
 body {
@@ -17,7 +27,7 @@ section {
     margin-right: 120px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 main {
@@ -25,5 +35,63 @@ main {
     margin-top: 5px;
     margin-left: 120px;
     margin-right: 120px;
-    padding: 20px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 25px;
+}
+
+.green {
+    color: rgb(0, 235, 31);
+}
+
+.red {
+    color: red;
+}
+
+.editorial {
+    color: white;
+    background-color: rgba(0, 148, 239, 0.925);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.goals {
+    color: white;
+    background-color: rgb(91, 28, 178);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.recruiting {
+    color: white;
+    background-color: rgb(13, 170, 120);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.mobile {
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.website {
+    color: white;
+    background-color: rgb(213, 27, 111);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.sales {
+    color: white;
+    background-color: rgb(142, 203, 19);
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 10px;
 }
